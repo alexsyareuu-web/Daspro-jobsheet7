@@ -14,7 +14,7 @@ public class SiakadWhile05 {
             nilai = sc.nextInt();
 
             if ( nilai < 0 || nilai > 100) {
-                System.out.println(" Nolai tidak valid. Masukkan nilai lagi yang valid! ");
+                System.out.println(" Nilai tidak valid. Masukkan nilai lagi yang valid! ");
                 continue;
             }
 
