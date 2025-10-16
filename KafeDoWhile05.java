@@ -17,11 +17,11 @@ public class KafeDoWhile05 {
             if (namaPelanggan.equalsIgnoreCase("batal")) {
             break;
             }
-            System.out.println("jumlah Kopi : ");
+            System.out.print("jumlah Kopi : ");
             kopi = sc.nextInt();
-            System.out.println("jumlah Teh : ");
+            System.out.print("jumlah Teh : ");
             teh = sc.nextInt();
-            System.out.println("jumlah Roti : ");
+            System.out.print("jumlah Roti : ");
             roti = sc.nextInt();
             totalHarga = (kopi * hargaKopi) + (teh * hargaTeh) + (roti * hargaRoti);
             System.out.println("Total yang harus dibayar: Rp " + totalHarga);
